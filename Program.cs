@@ -4,7 +4,8 @@ using System.IO;
 namespace AOC2020 {
     class Program {
         private static IDay[] solutions = {
-            new Day1()
+            new Day1(),
+            new Day2()
         };
 
         static void Main(string[] args) {
