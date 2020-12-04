@@ -5,7 +5,9 @@ namespace AOC2020 {
     class Program {
         private static IDay[] solutions = {
             new Day1(),
-            new Day2()
+            new Day2(),
+            new Day3(),
+            new Day4()
         };
 
         static void Main(string[] args) {
@@ -23,7 +25,7 @@ namespace AOC2020 {
             string[] inputs = isTest ? GetTestInputs(day) : GetInputs(day);
             Console.WriteLine($"Press any key to test day {day} part 1...");
             Console.ReadKey(true);
-            Console.WriteLine($"Testing Part 2 of day {day}");
+            Console.WriteLine($"Testing Part 1 of day {day}");
             solution.DoPart1(inputs);
             Console.WriteLine($"Press any key to test day {day} part 2...");
             Console.ReadKey(true);
